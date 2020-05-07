@@ -1,6 +1,5 @@
 <?php
 
-require_once __DIR__ . "/../../../../UIComponent/UserInterfaceHook/SrLearningProgressReset/vendor/autoload.php";
 require_once __DIR__ . "/../vendor/autoload.php";
 
 use srag\DIC\SrLearningProgressReset\DICTrait;
