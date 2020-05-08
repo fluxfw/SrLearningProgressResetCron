@@ -1,1 +1,1 @@
-## SrLearningProgressResetCron Description
+# SrLearningProgressResetCron ILIAS Plugin Description
