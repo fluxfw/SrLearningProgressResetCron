@@ -13,10 +13,6 @@ git clone https://github.com/studer-raimann/SrLearningProgressResetCron.git SrLe
 ```
 Update and activate the plugin in the ILIAS Plugin Administration
 
-### Some screenshots
-Cron:
-![Cron](./doc/screenshots/cron.png)
-
 ### Requirements
 * ILIAS 5.4
 * PHP >=7.2
