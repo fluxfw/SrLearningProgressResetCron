@@ -1,10 +1,16 @@
 This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
 
+## Description
+See in [doc/DESCRIPTION.md](./doc/DESCRIPTION.md)
+
+## Documentation
+See in [doc/DOCUMENTATION.md](./doc/DOCUMENTATION.md)
+
 ## Installation
 
-First install and enable [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset).
+First install and enable [SrLearningProgressReset Plugin](https://github.com/studer-raimann/SrLearningProgressReset).
 
-### Install SrLearningProgressResetCron-Plugin
+### Install SrLearningProgressResetCron Plugin
 Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/Cron/CronHook
