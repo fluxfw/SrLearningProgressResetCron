@@ -68,7 +68,7 @@ class ilSrLearningProgressResetCronPlugin extends ilCronHookPlugin
     /**
      * @inheritDoc
      */
-    public function getCronJobInstance(/*string*/ $a_job_id) : ?ilCronJob
+    public function getCronJobInstance(/*string*/ $a_job_id)/* : ?ilCronJob*/
     {
         return self::srLearningProgressReset()->jobs()->factory()->newInstanceById($a_job_id);
     }
