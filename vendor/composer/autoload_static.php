@@ -14,6 +14,7 @@ class ComposerStaticInit74761013d2da9450459d9c3cdb963a96
         's' => 
         array (
             'srag\\Plugins\\SrLearningProgressResetCron\\' => 41,
+            'srag\\LibrariesNamespaceChanger\\' => 31,
         ),
     );
 
@@ -22,10 +23,19 @@ class ComposerStaticInit74761013d2da9450459d9c3cdb963a96
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'srag\\LibrariesNamespaceChanger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
+        ),
     );
 
     public static $classMap = array (
         'ilSrLearningProgressResetCronPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrLearningProgressResetCronPlugin.php',
+        'srag\\LibrariesNamespaceChanger\\GeneratePluginPhp' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginPhp.php',
+        'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
+        'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
+        'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',
+        'srag\\LibrariesNamespaceChanger\\RemovePHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/RemovePHP72Backport.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
