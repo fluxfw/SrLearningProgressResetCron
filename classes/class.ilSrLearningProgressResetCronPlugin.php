@@ -16,13 +16,22 @@ class ilSrLearningProgressResetCronPlugin extends ilCronHookPlugin
     use DICTrait;
     use SrLearningProgressResetTrait;
 
+    const PLUGIN_CLASS_NAME = ilSrLearningProgressResetPlugin::class;
     const PLUGIN_ID = "srleprrecr";
     const PLUGIN_NAME = "SrLearningProgressResetCron";
-    const PLUGIN_CLASS_NAME = ilSrLearningProgressResetPlugin::class;
     /**
      * @var self|null
      */
     protected static $instance = null;
+
+
+    /**
+     * ilSrLearningProgressResetCronPlugin constructor
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
 
     /**
@@ -39,20 +48,11 @@ class ilSrLearningProgressResetCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * ilSrLearningProgressResetCronPlugin constructor
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
-
-    /**
      * @inheritDoc
      */
-    public function getPluginName() : string
+    public function getCronJobInstance(/*string*/ $a_job_id)/* : ?ilCronJob*/
     {
-        return self::PLUGIN_NAME;
+        return self::srLearningProgressReset()->jobs()->factory()->newInstanceById($a_job_id);
     }
 
 
@@ -68,8 +68,8 @@ class ilSrLearningProgressResetCronPlugin extends ilCronHookPlugin
     /**
      * @inheritDoc
      */
-    public function getCronJobInstance(/*string*/ $a_job_id)/* : ?ilCronJob*/
+    public function getPluginName() : string
     {
-        return self::srLearningProgressReset()->jobs()->factory()->newInstanceById($a_job_id);
+        return self::PLUGIN_NAME;
     }
 }
