@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'srag\\Plugins\\SrLearningProgressResetCron\\' => array($baseDir . '/src'),
+    'srag\\LibrariesNamespaceChanger\\' => array($vendorDir . '/srag/librariesnamespacechanger/src'),
 );

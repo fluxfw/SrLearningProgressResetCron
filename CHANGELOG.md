@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.1]
+- Fixes
+
 ## [1.1.0]
 - ILIAS 6 support
 
