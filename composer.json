@@ -1,7 +1,7 @@
 {
   "name": "srag/plugins/srlearningprogressresetcron",
   "description": "",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "ilias_plugin": {
     "id": "srleprrecr",
     "name": "SrLearningProgressResetCron",
