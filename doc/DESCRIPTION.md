@@ -1,5 +1,3 @@
-# SrLearningProgressResetCron ILIAS Plugin Description
-
 First install and enable [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset).
 
 Cron job:
