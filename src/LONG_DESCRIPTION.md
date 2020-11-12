@@ -2,4 +2,4 @@ First install and enable [SrLearningProgressReset](https://github.com/studer-rai
 
 Cron job:
 
-![Cron job](./images/cron_job.png)
+![Cron job](../doc/images/cron_job.png)
