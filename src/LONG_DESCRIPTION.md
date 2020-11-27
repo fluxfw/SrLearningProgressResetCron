@@ -1,4 +1,8 @@
-First install and enable [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset).
+### Base plugin
+
+First you need to install the [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset) plugin
+
+### Cron jobs
 
 Cron job:
 

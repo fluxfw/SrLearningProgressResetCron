@@ -27,7 +27,11 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ## Description
 
-First install and enable [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset).
+### Base plugin
+
+First you need to install the [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset) plugin
+
+### Cron jobs
 
 Cron job:
 
