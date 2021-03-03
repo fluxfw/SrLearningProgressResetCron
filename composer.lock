@@ -4,26 +4,82 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e72574101e215ac1aaffd4625d77da6b",
+    "content-hash": "5acbac003d3d0a04d466b414463fa3bc",
     "packages": [
         {
-            "name": "srag/librariesnamespacechanger",
-            "version": "v0.10.4",
+            "name": "srag/generateplugininfoshelper",
+            "version": "2.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-                "reference": "cf71c18cd46491444f1bd3daefb0aace41bc790f"
+                "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
+                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/cf71c18cd46491444f1bd3daefb0aace41bc790f",
-                "reference": "cf71c18cd46491444f1bd3daefb0aace41bc790f",
+                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/0fda4a1cb03f588afe1fef352fde9601648f6c4e",
+                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0"
             },
             "type": "library",
+            "extra": {
+                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "long_description_template": "src/LONG_DESCRIPTION.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "studer + raimann ag - Team Custom 1",
+                    "email": "support-custom1@studer-raimann.ch",
+                    "homepage": "https://studer-raimann.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Automatic generate plugin infos such README.md, plugin.php, plugin.xml, ... from composer.json",
+            "homepage": "https://github.com/fluxfw/GeneratePluginInfosHelper",
+            "keywords": [
+                "Infos",
+                "generate",
+                "helper",
+                "plugin"
+            ],
+            "time": "2021-03-03T09:17:27+00:00"
+        },
+        {
+            "name": "srag/librariesnamespacechanger",
+            "version": "0.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
+                "reference": "4d9567c0e83f325849e948960382c9cde612d474"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/4d9567c0e83f325849e948960382c9cde612d474",
+                "reference": "4d9567c0e83f325849e948960382c9cde612d474",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "srag/generateplugininfoshelper": ">=0.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "long_description_template": "src/LONG_DESCRIPTION.md"
+            },
             "autoload": {
                 "psr-4": {
                     "srag\\LibrariesNamespaceChanger\\": "src/"
@@ -42,12 +98,13 @@
                 }
             ],
             "description": "Change namespace of libraries to plugin namespace",
-            "homepage": "https://github.com/studer-raimann/LibrariesNamespaceChanger",
+            "homepage": "https://github.com/fluxfw/LibrariesNamespaceChanger",
             "keywords": [
-                "ILIAS",
-                "libraries"
+                "changer",
+                "libraries",
+                "namespace"
             ],
-            "time": "2020-09-11T10:39:59+00:00"
+            "time": "2021-03-03T09:56:22+00:00"
         }
     ],
     "packages-dev": [],

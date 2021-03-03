@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'srag\\Plugins\\SrLearningProgressResetCron\\' => array($baseDir . '/src'),
     'srag\\LibrariesNamespaceChanger\\' => array($vendorDir . '/srag/librariesnamespacechanger/src'),
+    'srag\\GeneratePluginInfosHelper\\SrLearningProgressResetCron\\' => array($vendorDir . '/srag/generateplugininfoshelper/src'),
 );

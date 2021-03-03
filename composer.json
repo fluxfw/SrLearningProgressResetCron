@@ -1,20 +1,27 @@
 {
-  "name": "srag/plugins/srlearningprogressresetcron",
-  "description": "",
-  "version": "1.1.1",
-  "ilias_plugin": {
-    "id": "srleprrecr",
-    "name": "SrLearningProgressResetCron",
-    "ilias_min_version": "5.4.0",
-    "ilias_max_version": "6.999",
-    "slot": "Services/Cron/CronHook"
+  "name": "srag/srlearningprogressresetcron",
+  "description": "Auto reset learning process",
+  "version": "1.1.2",
+  "extra": {
+    "ilias_plugin": {
+      "id": "srleprrecr",
+      "name": "SrLearningProgressResetCron",
+      "ilias_min_version": "5.4.0",
+      "ilias_max_version": "6.999",
+      "slot": "Services/Cron/CronHook",
+      "supports_cli_setup": true
+    },
+    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN",
+    "long_description_template": "src/LONG_DESCRIPTION.md"
   },
   "type": "project",
   "keywords": [
-    "ILIAS",
-    "Plugin"
+    "cron",
+    "ilias",
+    "job",
+    "plugin"
   ],
-  "homepage": "https://github.com/studer-raimann/SrLearningProgressResetCron",
+  "homepage": "https://github.com/fluxfw/SrLearningProgressResetCron",
   "license": "GPL-3.0-only",
   "authors": [
     {
@@ -29,6 +36,7 @@
   },
   "require": {
     "php": ">=7.0",
+    "srag/generateplugininfoshelper": ">=0.1.0",
     "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
@@ -51,8 +59,8 @@
     "pre-autoload-dump": [
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
       "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport",
-      "srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
-      "srag\\LibrariesNamespaceChanger\\UpdatePluginReadme::updatePluginReadme"
+      "srag\\GeneratePluginInfosHelper\\SrLearningProgressResetCron\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
+      "srag\\GeneratePluginInfosHelper\\SrLearningProgressResetCron\\GeneratePluginReadme::generatePluginReadme"
     ]
   }
 }
