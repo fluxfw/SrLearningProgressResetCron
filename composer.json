@@ -21,7 +21,7 @@
     "job",
     "plugin"
   ],
-  "homepage": "https://github.com/studer-raimann/SrLearningProgressResetCron",
+  "homepage": "https://github.com/fluxfw/SrLearningProgressResetCron",
   "license": "GPL-3.0-only",
   "authors": [
     {
