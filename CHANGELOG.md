@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.5]
+- Fix path to main plugin
+
 ## [1.1.4]
 - Ignore not supported languages
 
