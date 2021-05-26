@@ -4,8 +4,6 @@
 
 Auto reset learning process
 
-This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
-
 This project is licensed under the GPL-3.0-only license
 
 ## Requirements
@@ -20,7 +18,7 @@ Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/Cron/CronHook
 cd Customizing/global/plugins/Services/Cron/CronHook
-git clone https://github.com/fluxfw/SrLearningProgressResetCron.git SrLearningProgressResetCron
+git clone https://github.com/fluxapps/SrLearningProgressResetCron.git SrLearningProgressResetCron
 ```
 
 Update, activate and config the plugin in the ILIAS Plugin Administration
@@ -29,7 +27,7 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ### Base plugin
 
-First you need to install the [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset) plugin
+First you need to install the [SrLearningProgressReset](https://github.com/fluxapps/SrLearningProgressReset) plugin
 
 ### Cron jobs
 
