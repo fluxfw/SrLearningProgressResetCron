@@ -1,6 +1,6 @@
 ### Base plugin
 
-First you need to install the [SrLearningProgressReset](https://github.com/studer-raimann/SrLearningProgressReset) plugin
+First you need to install the [SrLearningProgressReset](https://github.com/fluxapps/SrLearningProgressReset) plugin
 
 ### Cron jobs
 
