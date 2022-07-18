@@ -16,7 +16,7 @@ Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/Cron/CronHook
 cd Customizing/global/plugins/Services/Cron/CronHook
-git clone https://github.com/fluxapps/SrLearningProgressResetCron.git SrLearningProgressResetCron
+git clone https://github.com/fluxfw/SrLearningProgressResetCron.git SrLearningProgressResetCron
 ```
 
 Update, activate and config the plugin in the ILIAS Plugin Administration
@@ -25,7 +25,7 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ### Base plugin
 
-First you need to install the [SrLearningProgressReset](https://github.com/fluxapps/SrLearningProgressReset) plugin
+First you need to install the [SrLearningProgressReset](https://github.com/fluxfw/SrLearningProgressReset) plugin
 
 ### Cron jobs
 
