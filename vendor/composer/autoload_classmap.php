@@ -7,8 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ilSrLearningProgressResetCronPlugin' => $baseDir . '/classes/class.ilSrLearningProgressResetCronPlugin.php',
-    'srag\\GeneratePluginInfosHelper\\SrLearningProgressResetCron\\GeneratePluginPhpAndXml' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
-    'srag\\GeneratePluginInfosHelper\\SrLearningProgressResetCron\\GeneratePluginReadme' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
-    'srag\\GeneratePluginInfosHelper\\SrLearningProgressResetCron\\UpdateVersion' => $vendorDir . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
     'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => $vendorDir . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
 );
